@@ -7,3 +7,81 @@
 html{
   font-size: 10px;
 }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #6666ff;
+}
+
+.container{
+  width: 300px;
+  margin: auto;
+}
+
+.height-container, .width-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+form{
+  width: 100%;
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: .5rem;
+}
+
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #6666ff;
+}
+
+input{
+  width: 85%;
+  height: 4rem;
+  outline: none;
+  border: 2px solid hsl(240, 100%, 70%);
+  border-radius: 0.5rem 0 0 .5rem;
+  padding: 2rem 1rem;
+  border-collapse: collapse;
+}
+
+input:focus{
+  box-shadow: rgba(102, 102, 255, 0.5) 0px 0px 0px 4px;
+}
+
+label{
+  display: inline-block;
+  border: 2px solid #6666ff;
+  border-collapse: collapse;
+  padding: 1.3rem .8rem;
+  width: 15%;
+  text-align: center;
+  background-color: #6666ff;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 0 .5rem .5rem 0;
+}
+
+button{
+  width: 100%;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: #6666ff;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .8s;
+}
+
+button:hover{
+  border: 1px solid #6666ff;
+  background: transparent;
+  color: #6666ff;
+}
