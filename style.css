@@ -93,14 +93,14 @@ button:hover{
   font-weight: bold;
 }
 
-.color-red{
+.danger{
   color: red;
 }
 
-.color-yellow{
+.warning{
   color: rgba(255, 218, 9, 0.966);
 }
 
-.color-green{
+.normal{
   color: rgb(47, 253, 47);
 }
