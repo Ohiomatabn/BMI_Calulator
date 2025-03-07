@@ -85,3 +85,22 @@ button:hover{
   background: transparent;
   color: #6666ff;
 }
+
+#result{
+  font-size: 1.8rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.color-red{
+  color: red;
+}
+
+.color-yellow{
+  color: rgba(255, 218, 9, 0.966);
+}
+
+.color-green{
+  color: rgb(47, 253, 47);
+}
